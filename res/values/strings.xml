@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AbouZac</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="motorcycle">I love to ride motorycles!</string>
+    <string name="saxophone">I love to play the saxophone!</string>
+    <string name="netowrking">I love Networking!</string>
+
+</resources>
