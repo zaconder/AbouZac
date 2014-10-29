@@ -23,15 +23,15 @@ public class AboutZacActivity extends Activity
 	protected void onCreate(Bundle savedInstanceState)
 	{
 		
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_about_zac);
+		
 		motorcycle = (Button) findViewById(R.id.motorcycle);
 		saxophone = (Button) findViewById(R.id.saxophone);
 		networking = (Button) findViewById(R.id.networking);
 		firstImage = (ImageView) findViewById(R.id.imageView1);
 		secondImage = (ImageView) findViewById(R.id.imageView2);
 		thirdImage = (ImageView) findViewById(R.id.imageView3);
-		
-		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_about_zac);
 		
 		setupListeners();
 	}
