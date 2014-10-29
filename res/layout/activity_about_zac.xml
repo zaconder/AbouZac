@@ -28,4 +28,32 @@
         android:layout_below="@+id/saxophone"
         android:text="@string/netowrking" />
 
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/networking"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/motorcycle"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_marginTop="43dp"
+        android:src="@drawable/networking"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/saxophone"
+        android:visibility="invisible" />
+
 </RelativeLayout>
